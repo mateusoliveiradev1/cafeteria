@@ -79,3 +79,49 @@ section {
   width: 40px;
   height: 40px;
 }
+
+/* Seção Home: imagem de fundo e posicionamento */
+.home-container {
+  background: url("../img/home-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Layout da Home: centralizar verticalmente o conteúdo */
+.home-container section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container do texto da Home */
+.content {
+  max-width: 100rem;
+}
+
+/* Título principal da Home */
+.content h3 {
+  font-size: 6rem;
+  color: var(--white);
+  line-height: 1.5;
+}
+
+/* Parágrafo descritivo da Home */
+.content p {
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: var(--white);
+}
+
+/* Botão CTA da Home */
+.btn {
+  background-color: var(--main-color);
+  color: var(--white);
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+}
