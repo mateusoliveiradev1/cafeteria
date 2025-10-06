@@ -91,6 +91,7 @@ section {
 .home-container section {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   min-height: 100vh;
 }
 
@@ -103,7 +104,8 @@ section {
 .content h3 {
   font-size: 6rem;
   color: var(--white);
-  line-height: 1.5;
+  line-height: 1.2;
+  text-align: left;
 }
 
 /* Parágrafo descritivo da Home */
@@ -113,6 +115,8 @@ section {
   line-height: 1.8;
   padding: 1rem 0;
   color: var(--white);
+  text-align: left;
+  max-width: 60ch;
 }
 
 /* Botão CTA da Home */
